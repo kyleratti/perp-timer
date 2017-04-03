@@ -115,7 +115,6 @@ function doThink(arrTimers) {
 
 $(function() {
     var objWeed = $("#weed-timer");
-
     var objShrooms = $("#shrooms-timer");
 
     var objWeedTimer = new DrugTimer(objWeed, 15);
