@@ -110,7 +110,7 @@ $(function() {
     var objShrooms = $("#shrooms-timer");
 
     var objWeedTimer = new DrugTimer(objWeed, 15);
-    var objShroomTimer = new DrugTimer(objShrooms, 4);
+    var objShroomTimer = new DrugTimer(objShrooms, 5);
 
     setInterval(function() { objWeedTimer.doThink(); }, 500);
     setInterval(function() { objShroomTimer.doThink(); }, 500);
