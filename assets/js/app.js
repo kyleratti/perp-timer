@@ -105,14 +105,6 @@ DrugTimer.prototype.isGoingOff = function() {
     return this.m_iEndTime && this.m_iEndTime - currentTimestamp() <= 0;
 }
 
-function doThink(arrTimers) {
-    for (i=1; i < arrTimers.length; i++) {
-        var objTimer = arrTimers[i];
-
-        objTimer.doThink();
-    }
-}
-
 $(function() {
     var objWeed = $("#weed-timer");
     var objShrooms = $("#shrooms-timer");
